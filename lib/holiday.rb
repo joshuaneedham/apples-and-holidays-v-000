@@ -40,7 +40,7 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
-
+  holiday_hash = {season => holiday_name => supply_array}
 end
 
 def all_winter_holiday_supplies(holiday_hash)
@@ -64,7 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
 
-  holiday_hash.each do |season, supply| holiday_hash.capitalize
+  holiday_hash.each do |season, supply| 
     puts "#{season}:"
     supply.each do |holiday, array|
       puts "  #{holiday}: #{array.join(", ")}"
