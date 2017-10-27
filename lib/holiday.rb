@@ -49,7 +49,6 @@ def all_winter_holiday_supplies(holiday_hash)
     season.each do |holiday, items|
         puts "#{items.join(", ")}"
       end
-    end
   end
 end
 
