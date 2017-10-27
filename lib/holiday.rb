@@ -67,6 +67,6 @@ def all_holidays_with_bbq(holiday_hash)
       if list == "BBQ"
       end
     end
-    key
   end
+  key
 end
