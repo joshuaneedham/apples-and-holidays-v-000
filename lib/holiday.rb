@@ -48,7 +48,7 @@ def all_winter_holiday_supplies(holiday_hash)
   all_supplies = []
   holiday_hash[:winter].each do |k, v|
     v.each do |supplies|
-      all_supplies << 'supplies'
+      all_supplies << supplies
     end
   end
     all_supplies
