@@ -37,6 +37,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   holiday_hash[:summer].each do |key, val|
     key.each do |holiday, val|
       val.push("#{supply}")
+    end
   end
 
 end
