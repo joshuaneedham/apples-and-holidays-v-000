@@ -48,7 +48,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.each do |season, supply|
     season.each do |holiday, items|
       if holiday[:winter]
-        puts "#{array}"
+        puts "#{items.join(", ")}"
       end
     end
   end
