@@ -64,7 +64,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   holiday_hash.each do |key, val|
     val.each do |list|
-      if list = "BBQ"
+      if list == "BBQ"
       end
     end
     key
