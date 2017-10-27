@@ -50,11 +50,12 @@ def all_winter_holiday_supplies(holiday_hash)
     v.each do |h, s|
       if h == :winter
         s.each do |supplies|
-        all_supplies << 'supplies'
+          all_supplies << 'supplies'
+        end
       end
     end
+    all_supplies
   end
-  all_supplies
 end
 
 
