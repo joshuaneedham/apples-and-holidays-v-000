@@ -57,9 +57,9 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.each do |season, supply|
-    puts "#{season}.upcase"
+    puts "#{season}".upcase
     supply.each do |holiday, array|
-      puts "#{holiday}: #{array}"
+      puts "#{holiday}: #{array}".upcase
     end
   end
 end
